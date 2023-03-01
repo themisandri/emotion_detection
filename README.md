@@ -1,8 +1,8 @@
 # Emotion Detection using Machine Learning Classification Algorithms, Neural Networks and Keras
-This project demonstrates the use of machine learning classification algorithms and neural networks for emotion detection in textual data. The project uses Keras, an open-source deep learning framework written in Python, for building and training the neural network.
+This project demonstrates the use of machine learning classification algorithms and neural networks for emotion detection in textual data. these notebooks cover the main points and are a continuation of the work I did in my Master [Thesis](https://nemertes.library.upatras.gr/items/2cad4488-fdc3-460a-a8ff-44500de0a1cf) "Text analysis in social networks and emotional content recognition".
 
 ## Dataset
-The dataset used in this project is the ISEAR dataset, which contains 7 different emotions (joy, fear, anger, sadness, disgust, shame, and guilt) expressed in short texts. The dataset is preprocessed and split into training and test sets.
+The dataset used in this project contains 6 different emotions (happy, sad, anger, fear, disgust and surprise) expressed in short texts. The dataset is preprocessed and split into training and test sets.
 
 ## Methodology
 The project uses machine learning classification algorithms (Naive Bayes, SVM, Random Forest) for comparison with the neural network. The neural network architecture consists of an embedding layer, a bidirectional LSTM layer, and a fully connected output layer with softmax activation. The model is trained on the training dataset and evaluated on the test dataset.
